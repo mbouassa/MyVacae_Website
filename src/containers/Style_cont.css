@@ -1,6 +1,6 @@
 
 .signup_button {
-    background: linear-gradient(90deg, rgba(231,87,156,1) 36%, rgba(237,157,224,1) 71%);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(50,210,26,1) 100%);
     text-align: center;
     border: 2px linear-gradient(90deg, rgba(231,87,156,1) 36%, rgba(237,157,224,1) 71%);
     border-color: '#FF8C69';
@@ -12,7 +12,7 @@
 
 .login_button {
     margin-right: 10px;
-    background: 'white';
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(26,148,210,1) 100%);
     border: 2px solid linear-gradient(90deg, rgba(231,87,156,1) 36%, rgba(237,157,224,1) 71%);
     border-color: '#FF8C69';
     text-align: center;
