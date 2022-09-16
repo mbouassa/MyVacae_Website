@@ -13,6 +13,12 @@ import Slide from 'react-reveal/Slide';
 import Hotel_mv from '../images/Hotel_mv.png'
 import airbnb_mv from '../images/Airbnb_mv.png'
 import inquiry_mv from '../images/inquiry_mv.png'
+import Select_mv from '../images/Select_mv.png'
+import dub_mv from '../images/dub_mv.png'
+
+
+
+
 
 
 
@@ -57,16 +63,16 @@ function App() {
           
         <div className="statusBar">
 
-          <img className="row br-100 dib grow" style = {{height: 90, width: 90}}
+          <img className="row br-100 dib grow" style = {{height: 60, width: 60}}
             src={Travl}
             alt="avatar"
           />    
-          <p1 className = "appName" style = {{fontFamily: 'Open Sans'}}>Geneva</p1>
+          <p1 className = "appName" style = {{fontFamily: 'Open Sans'}}>My Vacae Geneva</p1>
 
-          <div className="tr login">
+          <div className="tr login" >
             <p2 className = "language" style = {{fontFamily: 'Open Sans'}}>English (US)</p2>
             <a href="https://docs.google.com/forms/d/e/1FAIpQLSdKnIRTQ52IO-zTD8TMNbJV6LzK03Ptuf3bxTk6M9nTVLQPTw/viewform?vc=0&c=0&w=1&flr=0">
-              <button className = "login_button" style = {{color: '#FF8C69'}}>
+              <button className = "login_button" style = {{color: 'white'}}>
                 <p2 style = {{fontFamily: 'Open Sans'}}>log in</p2>
               </button>
             </a>
@@ -95,7 +101,7 @@ function App() {
           </div>
 
           <div style = {{marginTop: 100}}>
-            <Carousel className = "w5 grow"showStatus = {false} autoPlay interval="3000" transitionTime="2000" showThumbs={false} infiniteLoop = {true} style = {{height: 600, width: 2, borderRadius: 40, marginBottom:10, marginRight:50}}>
+            <Carousel autoFocus = 'true' className = "w5 grow"showStatus = {false} autoPlay interval="3000" transitionTime="2000" showThumbs={false} infiniteLoop = {true} style = {{height: 600, width: 2, borderRadius: 40, marginBottom:10, marginRight:50}}>
           <div>
           <img className="grow bg-light-green br1 pa1 shadow-5 w10" style = {{height: 600, borderRadius: 40, marginBottom:10}}
             src={Hotel_mv}
@@ -152,30 +158,18 @@ function App() {
             <Carousel className = "w5 grow" axis='vertical' showStatus = {false} autoPlay interval="3000" transitionTime="2000" showThumbs={false} infiniteLoop = {true} style = {{height: 600, width: 2, borderRadius: 40, marginBottom:10, marginRight:50}}>
             <div>
           <img className="grow bg-light-green br1 pa1 shadow-5 w10" style = {{height: 600, borderRadius: 40, marginBottom:10}}
-            src={prod_MyPlan}
+            src={Select_mv}
             alt="avatar"
           /> 
           </div>
           <div>
           <img className="grow bg-light-green br1 pa1 shadow-5 w10" style = {{height: 600, borderRadius: 40, marginBottom:10}}
-            src={graph_MyPlan}
+            src={dub_mv}
             alt="avatar"
           /> 
           </div>
 
-          <div>
-          <img className="grow bg-light-green br1 pa1 shadow-5 w10" style = {{height: 600, borderRadius: 40, marginBottom:10}}
-            src={sport_MyPlan}
-            alt="avatar"
-          /> 
-          </div>
-
-          <div>
-          <img className="grow bg-light-green br1 pa1 shadow-5 w10" style = {{height: 600, borderRadius: 40, marginBottom:10}}
-            src={Sleep_MyPlan}
-            alt="avatar"
-          /> 
-          </div>
+          
 
 </Carousel>
 
@@ -187,11 +181,12 @@ function App() {
 
             
           <h1 className = "MottoContainer" style = {{fontSize: 70,   fontFamily: 'Open Sans', fontWeight: 500}}>
-            HAVE ACCESS TO DAILY REPORTS ABOUT YOUR PERFORMANCES
+            MYVACE IS THE MOST MODERN SOCIAL MEDIA FOR BOOKING
           </h1>
 
-          <p1 style = {{fontSize: 30,   fontFamily: 'Open Sans'}}>MyPlan creates data visualizations on your productivity, 
-          sleep and physical activities to help you track your progress</p1>
+          <p1 style = {{fontSize: 30,   fontFamily: 'Open Sans'}}>
+            It has been designed to suit the needs of Genz Z. Simply scroll down until you find the perfect place. With MyVacae, booking can take as little as 5mn!
+          </p1>
           </div>
 
 
@@ -205,13 +200,14 @@ function App() {
         <div className="statusBar" style = {{flex:1, padding: 20, marginTop: 150, marginBottom:150}}>
           <div style = {{width: getWindowSize()/1.8, marginRight:200}}>
         <h1 className = "MottoContainer" style = {{fontSize: 70,   fontFamily: 'Open Sans', fontWeight: 500}}>
-            STUDENTS LOVE MYPLAN
+            HOTELS AND AIRBNB OWNERS LOVE MYVACAE
           </h1>
 
           </div>
 
-          <p1 style = {{fontSize: 30,   fontFamily: 'Open Sans'}}>MyPlan is a personalized tool
-           that helps you become the best version of yourself</p1>
+          <p1 style = {{fontSize: 30,   fontFamily: 'Open Sans'}}>
+            Use MyVacae to book in less than 5mn
+          </p1>
 
         </div>
         </Slide>
